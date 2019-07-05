@@ -1,1 +1,6 @@
 .wrap {width: 100%; max-width: 1180px; margin: 0 auto;}
+.tops {border: 1px solid red;}
+.tops > div {border: 1px solid blue; padding: 16px;}
+.tops > .navi {float: left;}
+.tops > .mail {float: right;}
+.tops > .logo {text-align: center;}
