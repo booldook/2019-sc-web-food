@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Karma&display=swap');
 body, h1, h2, h3, h4, h5, h6 {font-family: 'Karma', serif;}
 .wrap {width: 100%; max-width: 1180px; margin: 0 auto;}
+body {height: 5000px;}
 
 /* tops */
 .tops {font-size: 24px;}
@@ -15,3 +16,8 @@ body, h1, h2, h3, h4, h5, h6 {font-family: 'Karma', serif;}
 .foods > ul {margin-top: 50px;}
 .food {width: 24%; margin: 0 0.5%; float: left; text-align: center;}
 	.food-tit {font-size: 24px; margin: 12px 0 16px 0; color: black;}
+.pager {width: 240px; margin: 50px auto;}
+	.pager > li {float:	left; width: 40px; height: 40px; text-align: center; line-height: 40px; cursor: pointer;}
+	.pager > li:hover {background-color: #111; color: #f8f8f8;}
+	.pager > li:nth-child(2) {background-color: #111; color: #f8f8f8;}
+	.pager > li:nth-child(2):hover {background-color: #ccc; color: #111;}
