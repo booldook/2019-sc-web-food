@@ -1,6 +1,12 @@
+/* 공통사항 */
+@import url('https://fonts.googleapis.com/css?family=Karma&display=swap');
+body, h1, h2, h3, h4, h5, h6 {font-family: 'Karma', serif;}
 .wrap {width: 100%; max-width: 1180px; margin: 0 auto;}
-.tops {border: 1px solid red;}
-.tops > div {border: 1px solid blue; padding: 16px;}
-.tops > .navi {float: left;}
+
+/* tops */
+.tops {font-size: 24px;}
+.tops > div {padding: 16px;}
+.tops > .navi {float: left; cursor: pointer;}
+.tops > .navi:hover {background-color: #ccc;}
 .tops > .mail {float: right;}
 .tops > .logo {text-align: center;}
