@@ -12,6 +12,6 @@ body, h1, h2, h3, h4, h5, h6 {font-family: 'Karma', serif;}
 .tops > .logo {text-align: center;}
 
 /* foods */
-.foods {margin-top: 50px;}
+.foods > ul {margin-top: 50px;}
 .food {width: 24%; margin: 0 0.5%; float: left; text-align: center;}
 	.food-tit {font-size: 24px; margin: 12px 0 16px 0; color: black;}
