@@ -14,6 +14,8 @@ html, body {
 	color: #222;
 }
 
+h1, h2, h3, h4, h5, h6 {font-weight: normal;}
+
 /* 순서를 나타내는 리스트 */
 ol, ul, li, dl, dt, dd {
 	list-style: none;
