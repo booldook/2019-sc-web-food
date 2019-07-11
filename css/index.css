@@ -25,6 +25,7 @@ body {height: 5000px;}
 		color: #111;}
 
 /* abouts */
-.abouts {padding: 80px 0; border-bottom: 1px solid #999;}
-.abouts > h2 {text-align: center; margin-bottom: 50px;}
-.abouts > .about-img {text-align: center;}
+.abouts {padding: 80px 0; border-bottom: 1px solid #999; text-align: center;}
+.abouts > h2 {margin-bottom: 50px;}
+.abouts > .tit {margin-top: 40px; font-size: 18px; font-weight: bold; color: #000;}
+.abouts > .stit {padding: 20px 0; font-style: italic;}
