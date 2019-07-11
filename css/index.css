@@ -1,8 +1,7 @@
 /* 공통사항 */
 @import url('https://fonts.googleapis.com/css?family=Karma&display=swap');
-body, h1, h2, h3, h4, h5, h6 {font-family: 'Karma', serif;}
+body {font-family: 'Karma', serif;}
 .wrap {width: 100%; max-width: 1180px; margin: 0 auto;}
-body {height: 5000px;}
 
 /* tops */
 .tops {font-size: 24px;}
@@ -32,5 +31,16 @@ body {height: 5000px;}
 
 /* footer */
 .footers {margin: 80px 0;}
-.footers > li {width: 33.3333%; float: left; padding: 8px;}
-.footers h3 {}
+.footers > li {width: 32%; float: left; padding: 8px;}
+.footers > li:nth-child(2) {margin: 0 2%;}
+.footers h3 {font-size: 24px; padding: 12px 0;}
+.footers .copyright {padding: 12px 0;}
+.posts > :not(:last-child) {border-bottom: 1px solid #ccc;}
+.blog .post {padding: 12px 8px 8px 8px; cursor: pointer;}
+.blog .post:hover {background-color: #ccc;}
+.blog .pic {width: 15%; float: left;}
+.blog .cont {width: 80%; float: right;}
+.post h5 {font-size: 18px;}
+.tag {display: inline-block; background-color: #ccc; 
+	padding: 4px 6px; margin: 0 8px 8px 0;}
+.tag-list > :first-child {background-color: #111; color: #f8f8f8; font-size: 18px;}
