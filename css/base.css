@@ -31,9 +31,6 @@ img {
 	content: '';
 	clear:both;
 }
-.img {
-	width: 100%;
-}
-.img-wrap {
-	line-height: 0.9;
-}
+.img { width: 100%; }
+.img2 { max-width: 100%; }
+/* .img-wrap { line-height: 0.9; } */
