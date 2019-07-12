@@ -10,7 +10,6 @@ body {font-family: 'Karma', serif;}
 .tops > .navi:hover {background-color: #ccc;}
 .tops > .mail {float: right;}
 .tops > .logo {text-align: center;}
-
 /* foods */
 .foods {border-bottom: 1px solid #ccc;}
 .foods > ul {margin-top: 50px; 
